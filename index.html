@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lucky Charm Bracelet Selector</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Lucky Charm Bracelet Selector</h1>
+
+  <!-- 1️⃣ First: Birth Date and Time Section -->
+  <section id="birthdate-input">
+    <h2>Enter Your Birth Date and Time</h2>
+    <label for="birthdate">Birth Date:</label>
+    <input type="date" id="birthdate" />
+    <label for="birthtime">Birth Time:</label>
+    <input type="time" id="birthtime" />
+    <button id="analyze-button">Analyze Your Lucky and Unlucky Colors</button>
+    <div id="analysis-result">
+      <!-- Analysis result will appear here -->
+    </div>
+  </section>
+
+  <p style="color: gray; font-size: small;">
+    </strong> The BaZi analysis and related information provided on this website is based on traditional Chinese metaphysics theories and is for reference only. They do not constitute any scientific proof or professional advice.
+  </p>
+
+  <!-- 2️⃣ Then: Material List Section -->
+  <section id="material-list">
+    <h2>Material List</h2>
+    <div id="materials-container">
+      <!-- Material cards will be generated here -->
+    </div>
+  </section>
+
+  <footer>
+    <script src="script.js"></script>
+</body>
+</html>
